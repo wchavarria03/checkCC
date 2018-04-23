@@ -1,6 +1,6 @@
 /**
  * Source: Base code from Unknow Source. (If base code is yours let me know and I will refer you here)
- * PrecitCC - Checks and predict a given string/number for a valid credit card type
+ * PredicttCC - Checks and predict a given string/number for a valid credit card type
  * @returns:
  *  {
  *    isValid:  (-1 invalid, 1 valid),
