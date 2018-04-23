@@ -7,13 +7,13 @@
  *          3         Amex
  *          4         Diners club
  *          5         Discover
- *          6         EnRoute
+ *          6         EnRoute 
  *          7         JCB
  */
-!function (a) {
-  a.checkCC = function (a) {
+
+  module.exports =  function checkCC(a) {
     String.prototype.startsWith = function (a) {
-      return this.match("^" + a) == a
+      return a.match("^" + a) == a
     }, 
     Array.prototype.has = function (a, b) { 
       for (var c = 0; c < this.length; c++)
@@ -74,5 +74,4 @@
         6: "invalid", 
         7: "invalid" 
       }, return_vals["" + f])
-  }
-}(this);
+  };

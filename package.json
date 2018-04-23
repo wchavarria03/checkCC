@@ -1,0 +1,29 @@
+{
+  "name": "checkcc",
+  "version": "0.0.1",
+  "description": "Check and predict credits cards",
+  "main": "checkCC.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchavarria03/checkCC.git"
+  },
+  "keywords": [
+    "cc",
+    "credit",
+    "cards",
+    "predict"
+  ],
+  "author": "Walter Chavarria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wchavarria03/checkCC/issues"
+  },
+  "homepage": "https://github.com/wchavarria03/checkCC#readme"
+}
