@@ -8,13 +8,13 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/checkCC.js"
+      "program": "${workspaceFolder}/predictCC.js"
     },
     {
         "type": "node",
         "request": "launch",
-        "name": "Launch Demo CheckCC",
-        "program": "${workspaceFolder}/checkCC.js",
+        "name": "Launch Demo PredictCC",
+        "program": "${workspaceFolder}/predictCC.js",
         "cwd": "${workspaceFolder}"
     },
     {
