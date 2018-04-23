@@ -1,5 +1,5 @@
 {
-  "name": "checkcc",
+  "name": "precitcc",
   "version": "0.0.1",
   "description": "Check and predict credits cards",
   "main": "checkCC.js",

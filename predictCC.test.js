@@ -1,8 +1,8 @@
-const checkCC = require('./checkCC');
+const predictCC = require('./predictCC');
 
 xdescribe('Should be Invalid if', () => {
   test('Credit Card has a length of less than 16', () => {
-    expect(checkCC('888')).toBe({
+    expect(predictCC('888')).toBe({
       isValid: -1,
       code: -1,
       label: 'invalid'
@@ -12,7 +12,7 @@ xdescribe('Should be Invalid if', () => {
 
 describe('Should be Valid if', () => {
   test('Credit Card has a length of 16', () => {
-    var a = checkCC('4111111111111111');
+    var a = predictCC('4111111111111111');
     var result = {
       isValid: -1,
       code: -1,

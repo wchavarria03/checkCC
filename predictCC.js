@@ -1,6 +1,6 @@
 /**
- * Source: Base code from Unknow Source. (If based code is yours let me know and I will refer you here)
- * CheckCC - Checks a given string/number for a valid credit card
+ * Source: Base code from Unknow Source. (If base code is yours let me know and I will refer you here)
+ * PrecitCC - Checks and predict a given string/number for a valid credit card type
  * @returns:
  *  {
  *    isValid:  (-1 invalid, 1 valid),
@@ -20,7 +20,7 @@
  *          7         JCB
  **/
 
-module.exports = function checkCC(creditCard) {
+module.exports = function predictCC(creditCard) {
   const ccTypes = {
     "-1": { code: -1, label: "invalid"},
     1: {code: 1, label: "master"},
@@ -62,7 +62,7 @@ module.exports = function checkCC(creditCard) {
     return creditCard.replace(/[^0-9]/g, ""); 
   }
 
-  creditCard.checkCC = function (creditCard) {
+  creditCard.predictCC = function (creditCard) {
     __addStartWithProtoEvent();
     creditCard = __cleanCCParameter(creditCard);
     var creditCardArray = __descomposeIntoArray(creditCard);
